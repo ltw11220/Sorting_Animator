@@ -1,13 +1,228 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 .array-container{
     position: absolute;
-    left: 100px
+    left: 5vw;
+    height: 90vh;
+    width: 85vw;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.5s height;
 
 }
 
 .array-bar{
-    width: 2px;
+    width: (100/NUMBER_OF_ARRAY_BARS);
     background-color: red;
+    
     display: inline-block;
-    margin: 0 1px
+    margin: 0 1px;
+    min-width: 1px;
+    transition: inherit;
     
 }
+.bottom-settings{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: orange;
+}
+#generate{
+    color: blue;
+    background-color: orange;
+    position: absolute;
+    height: 9vh;
+    width: 10%;
+    border: red 3px solid;
+}
+#quick-sort{
+    color: blue;
+    position: absolute;
+    height: 9vh;
+    width: 10%;
+    text-align: center;
+    border: red 3px solid;
+    left: 10%;
+}
+#select-sort{
+    color: red;
+    position: absolute;
+    height: 9vh;
+    width: 10%;
+    text-align: center;
+    border: red 3px solid;
+    left: 30%;
+}
+
+#merge-sort{
+    color: white;
+    background-color: red;
+    position: absolute;
+    height: 9vh;
+    width: 10%;
+    text-align: center;
+    border: blue 3px solid;
+    left: 40%;
+}
+
+#heap-sort{
+    color: white;
+    background-color: red;
+    position: absolute;
+    height: 9vh;
+    width: 10%;
+    text-align: center;
+    border: blue 3px solid;
+    left: 20%;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#settings-toggle{
+    display: flex;
+    position: fixed;
+    top: 2.5vh;
+    right: 2.5vw;
+    width: 5vw;
+    background-color: red;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    align-items: stretch;
+}
+#settings-toggle .bar{
+    display: block;
+    cursor: pointer;
+    width: 2vw;
+    height: 0.5vh;
+    margin: 0.1vh auto;
+    transition: all 300ms ease-in-out;
+    background: black;
+}
+
+#settings-toggle{
+    display: flex;
+    position: fixed;
+    top: 2.5vh;
+    right: 2.5vw;
+    width: 5vw;
+    height: 5vh;
+    background-color: red;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+
+#settings-toggle.active .bar:nth-child(2){
+    opacity: 0;
+}
+
+#settings-toggle.active .bar:nth-child(1){
+    transform: translateY(.7vh) rotate(45deg);
+    align-self: center;
+}
+
+#settings-toggle.active .bar:nth-child(3){
+    transform: translateY(-0.7vh) rotate(-45deg);
+    align-self: center;
+
+}
+
+#settings{
+    padding-top: 10vh;
+    position: absolute;
+    right: 0px;
+    top: -90vh;
+    height: 80vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    justify-items: space-around;
+    align-items: center;
+    background: yellow;
+    opacity: 0;
+    transition: 0.5s all ease-in-out;
+}
+
+#settings.active{
+    opacity: 1;
+    right: 0px;
+    top: 0px;
+}
+form{
+    height: 80%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  .label-holder{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 0;
+
+
+  }
+
+  #credits{
+      position: fixed;
+      bottom: 0px;
+      right: 0px;
+      height: 10vh;
+      width: 10vw;
+      background: transparent;
+      color: black;
+      text-align: center;
+      align-content: flex-end;
+      align-items: flex-end;
+
+  }
