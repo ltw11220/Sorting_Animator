@@ -29,11 +29,11 @@ export default class SortingVisualizer extends React.Component {
     };
   }
 
-  componentDidMount() {
+  componentDidMount() { //When the screen loads. 
     this.resetArray();
   }
 
-  switchButton(){
+  switchButton(){ //Drop down for side settings. 
     const button = document.querySelector('#settings-toggle');
     button.classList.toggle('active');
     const settings = document.querySelector('#settings');
@@ -42,7 +42,7 @@ export default class SortingVisualizer extends React.Component {
 
 
 
-  resetArray() {
+  resetArray() { //Initializes and displays a random list of bars. 
     var id = window.setTimeout(function() {}, 0);
 
     while (id--) {
@@ -64,7 +64,7 @@ export default class SortingVisualizer extends React.Component {
 
   }
 
-  resetColors(){
+  resetColors(){ // Function changing the colors when they are altered without changing the array. 
     var id = window.setTimeout(function() {}, 0);
 
     while (id--) {
@@ -79,7 +79,7 @@ export default class SortingVisualizer extends React.Component {
 
   }
 
-  mergeSort(){
+  mergeSort(){ // Function handling mergeSort animations when button is clicked. 
     const animations = getMergeSortAnimations(this.state.array);
     for (let i = 0; i < animations.length; i++) {
       const arrayBars = document.getElementsByClassName('array-bar');
@@ -162,7 +162,7 @@ export default class SortingVisualizer extends React.Component {
 }
 
 
-  heapSort(){
+  heapSort(){ // Function handling heapSort animations when button is clicked. 
     const animations = getHeapSortAnimations(this.state.array);
     const arrayBars = document.getElementsByClassName('array-bar');
     var sum = 0;
@@ -223,7 +223,7 @@ export default class SortingVisualizer extends React.Component {
   }
 
 
-  quickSort(){
+  quickSort(){ // Function handling quickSort animations when button is clicked. 
     const animations = getQuickSortAnimations(this.state.array);
     for(let i = 0; i < animations.length; i++){
       const animation = animations[i];
@@ -363,7 +363,6 @@ export default class SortingVisualizer extends React.Component {
                 <span className="bar"></span>
         </div>
         <div id="settings" style={{backgroundImage: `linear-gradient(to bottom, ${PRIMARY_COLOR}, ${SECONDARY_COLOR})`}}>
-
 
           <form>
             <div className='label-holder'>
