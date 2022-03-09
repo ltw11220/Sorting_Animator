@@ -26,7 +26,7 @@ channel 3Blue1Brown. If you haven't checked out his channel already, I highly re
 ### So what's next?
 
 Well, this semester (Spring 2022), I'm taking two Computer Science related courses in my junior year at NYU, one of which is Machine Learning. Perhaps in the
-near future another fun resume-building project will be to create a functional ML algorithm (NLP and Quantitative Finance have always drawn my interest), although
+near future, another fun resume-building project will be to create a functional ML algorithm (NLP and Quantitative Finance have always drawn my interest), although
 I already have another idea in mind for my next project. 
 
 It's a fundamental theorem in mathematics that you can draw a curve passing through n points exactly if the highest degree of the polynomial describing it is
