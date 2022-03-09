@@ -23,7 +23,7 @@ channel 3Blue1Brown. If you haven't checked out his channel already, I highly re
 
 
 
-So what's next?
+### So what's next?
 
 Well, this semester (Spring 2022), I'm taking two Computer Science related courses in my junior year at NYU, one of which is Machine Learning. Perhaps in the
 near future another fun resume-building project will be to create a functional ML algorithm (NLP and Quantitative Finance have always drawn my interest), although
