@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+### Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hi! If you're reading this, you're probably either reviewing my GitHub for an internship after clicking the link on my resumé, or maybe you're just interested
+in the project.
 
-## Available Scripts
+Here's the basic rundown: 
 
-In the project directory, you can run:
+This project was created in mind to help beginning students in the field of Computer Science help understand what these various sorting algorithms they're
+learning about in class actually do through a visual tool animating these in-place sortings. User changable settings were also developed to help customize
+the experience.
 
-### `npm start`
+With algorithms like Select Sort, the visual interpretation is simple to follow, giving a helpful tool to show how the algorithm traverses, compares, and alters
+values throughout the list. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In my personal opinion, the Merge Sort animation seems to be the most helpful, as it really helps give an intuitive sense of what the recursive formula is
+actually doing. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Heap Sort and Quick Sort may be a little harder to follow without knowing the principles of the algorithms themselves, but they make for beautiful
+animations nonetheless. 
 
-### `npm test`
+The project was created using React, JS, CSS, and HTML, and was largely inspired by the mathematical animations of Grant Sanderson, the developer of the Youtube
+channel 3Blue1Brown. If you haven't checked out his channel already, I highly recommend that you do.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+So what's next?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Well, this semester (Spring 2022), I'm taking two Computer Science related courses in my junior year at NYU, one of which is Machine Learning. Perhaps in the
+near future another fun resume-building project will be to create a functional ML algorithm (NLP and Quantitative Finance have always drawn my interest), although
+I already have another idea in mind for my next project. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+It's a fundamental theorem in mathematics that you can draw a curve passing through n points exactly if the highest degree of the polynomial describing it is
+greater or equal to n. I plan on building a web application that will accept a user's drawing (think dragging your mouse to create some curve over
+an area of the screen), and returning a cartesian polynomial (or perhaps parametric) equation that best approximates the user's curve given
+a predetermined and adjustable level of complexity, along with an animation. 
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you made it this far, thanks for your interest! I had a great time creating a working project and I can't wait to continue with freelance creative
+projects like these. And if you're reading this from the link in my resumé, well, I look forward to meeting in person!
