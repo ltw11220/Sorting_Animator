@@ -18,7 +18,7 @@ actually doing.
 Heap Sort and Quick Sort may be a little harder to follow without knowing the principles of the algorithms themselves, but they make for beautiful
 animations nonetheless. 
 
-The project was created using React, JS, CSS, and HTML, and was largely inspired by the mathematical animations of Grant Sanderson, the developer of the Youtube
+The project was created utilizing React, JS, CSS, and HTML, and was largely inspired by the mathematical animations of Grant Sanderson, the developer of the Youtube
 channel 3Blue1Brown. If you haven't checked out his channel already, I highly recommend that you do.
 
 
