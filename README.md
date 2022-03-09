@@ -1,4 +1,4 @@
-### Overview
+## Overview
 
 Hi! If you're reading this, you're probably either reviewing my GitHub for an internship after clicking the link on my resumé, or maybe you're just interested
 in the project.
